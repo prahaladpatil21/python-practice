@@ -1,0 +1,14 @@
+student={"personal":{
+    "name":"kiran",
+    "age":20
+},
+"academic":{
+    "course":"cse",
+    "semester":4,
+    "cgpa":7.5
+}
+}
+print(student["personal"]["name"])
+print(student["academic"]["course"])
+print(student["academic"]["semester"])
+print(student["academic"]["cgpa"])
